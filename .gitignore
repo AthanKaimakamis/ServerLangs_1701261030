@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/ServerLangs_1701261030/FileContentIndex
+.DS_Store
+.vs/ProjectEvaluation/serverlangs_1701261030.metadata.v5.1
+.vs/ProjectEvaluation/serverlangs_1701261030.projects.v5.1
+.vs/ServerLangs_1701261030/DesignTimeBuild/.dtbcache.v2
+.vs/ServerLangs_1701261030/v17/.futdcache.v2
+.vs/ServerLangs_1701261030/v17/.suo
+.vs/ServerLangs_1701261030/xs/project-cache/Warehouse.Manager-Debug.json
+Warehouse.Manager/appsettings.json
+Warehouse.Manager/bin
+Warehouse.Manager/obj
+Warehouse.Manager/Properties/launchSettings.json
