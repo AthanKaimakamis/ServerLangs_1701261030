@@ -1805,32 +1805,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hacke\\.nuget\\packages\\": {},
-    "F:\\Software Enginearing\\Software\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/athan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Warehouse.Manager.csproj",
+      "projectUniqueName": "/Volumes/GoogleDrive/Shared drives/Projects/ServerLangs_1701261030/Warehouse.Manager/Warehouse.Manager.csproj",
       "projectName": "Warehouse.Manager",
-      "projectPath": "D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Warehouse.Manager.csproj",
-      "packagesPath": "C:\\Users\\Hacke\\.nuget\\packages\\",
-      "outputPath": "D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\obj\\",
+      "projectPath": "/Volumes/GoogleDrive/Shared drives/Projects/ServerLangs_1701261030/Warehouse.Manager/Warehouse.Manager.csproj",
+      "packagesPath": "/Users/athan/.nuget/packages/",
+      "outputPath": "/Volumes/GoogleDrive/Shared drives/Projects/ServerLangs_1701261030/Warehouse.Manager/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "F:\\Software Enginearing\\Software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hacke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/athan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1893,7 +1886,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
