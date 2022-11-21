@@ -19,14 +19,14 @@ builder.Services.AddTransient<IExceptionHandlerService, ExceptionHandlerService>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
                 {
-                  options.LoginPath = "/login";
+                    options.LoginPath = "/login";
                 });
 builder.Services.AddAuthorization();
 
 builder.Services.AddMvc(options =>
 {
-  options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(
-    _ => "Null on Required property found.");
+    options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(
+      _ => "Null on Required property found.");
 });
 
 

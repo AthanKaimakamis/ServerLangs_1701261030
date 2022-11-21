@@ -1,5 +1,5 @@
 -- Create the stored procedure in the specified schema
-CREATE OR ALTER PROCEDURE wh.LoginVerify
+CREATE OR ALTER PROCEDURE [wh].[SP_LoginVerify]
     @username NVARCHAR(15),
     @password  NVARCHAR(20),
     @errorMessage  NVARCHAR(255) OUTPUT
@@ -9,12 +9,11 @@ BEGIN
     SET NOCOUNT ON
     DECLARE @userID INT
     -- body of the stored procedure
-    IF EXISTS (SELECT TOP 1 u.uID FROM wh.Users u WHERE uLogin = @username)
+    IF EXISTS (SELECT TOP 1 [uID] FROM [wh].[Users] WHERE [uUsername] = @username)
     BEGIN
-        SET @userID = (SELECT u.uID 
-                        FROM  wh.Users u 
-                        WHERE u.uLogin = @username 
-                        AND u.uPasswordHash = HASHBYTES('SHA2_512',@password+CAST(uPwdSalt AS NVARCHAR(36)))
+        SET @userID = (SELECT [uID] FROM  [wh].[Users] 
+                        WHERE [uUsername] = @username 
+                        AND [uPasswordHash] = HASHBYTES('SHA2_512',@password+CAST(uPwdSalt AS NVARCHAR(36)))
                     )
         IF(@userID IS NULL)
             SET @errorMessage = 'Incorrect Password!';

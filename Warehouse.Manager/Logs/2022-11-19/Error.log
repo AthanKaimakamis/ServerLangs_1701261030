@@ -1,0 +1,110 @@
+Time: 15:30:43
+LogLevel: Error
+Code: 0x00011
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Error converting data type nvarchar to int.\",\"Number\":8114,\"Procedure\":\"dbo.Log_DbError\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass46_0`1.<GetScalarResult>b__4(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 359\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.GetScalarResult[T](String stmt, List`1 parameters) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 359\r\n   at Warehouse.Manager.Services.DbDataScopedService.CreateUser(User user) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 48"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-up",
+  "Path": "/sign-up",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "138"
+    ],
+    "Postman-Token": [
+      "369bb2b2-4cea-4785-aaa1-439ae68cc2e6"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 16:22:36
+LogLevel: Error
+Code: 0x00011
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Conversion failed when converting the nvarchar value 'Username \\\"testUser1\\\" is already taken' to data type bit.\",\"Number\":245,\"Procedure\":\"wh.CreateUser\",\"LineNumber\":15}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass46_0`1.<GetScalarResult>b__4(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 359\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.GetScalarResult[T](String stmt, List`1 parameters) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 359\r\n   at Warehouse.Manager.Services.DbDataScopedService.CreateUser(User user) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 48"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-up",
+  "Path": "/sign-up",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "138"
+    ],
+    "Postman-Token": [
+      "6e9d9b4a-a4e2-4b6f-8ce8-47c4799f7159"
+    ]
+  }
+}
+-------------------------------------------------
+
