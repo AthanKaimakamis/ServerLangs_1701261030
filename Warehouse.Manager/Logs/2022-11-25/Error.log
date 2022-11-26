@@ -1,0 +1,146 @@
+Time: 12:20:48
+LogLevel: Error
+Code: LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen()\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType)\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login)"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Authentication/Login",
+  "Path": "/Authentication/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/warehouse/GetProducts",
+    "Username": "afwadfawd",
+    "Password": "wafwafaw",
+    "__RequestVerificationToken": "CfDJ8CZ0FRMOSSFBkjIp5Sf5iu6NVgfsCz6Hji36sj6EzC8r80dmIu92oyjmiSdMyyUvQAFso5Bubh2ZjpEd581Ah3PI3HCQ4GCRqARn4RJK22j2t6AQu3jdjduRpGJmwZWKX0vALld5fnO1UkEn29n4zho",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.-0IBRsAbuzM=CfDJ8CZ0FRMOSSFBkjIp5Sf5iu71hSU2YzGVMkdodjH61oczJXctmB-r-GC9DnGg181uFPzkxcEOIbvY87aAhdGBn9qGS7Maz74fTGn8gjSqTW76zxhDu0c4UVWgPOpdfZHHYlQhf8gI8LpVdPEbbt6dC7k"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/authentication/login?ReturnUrl=%2Fwarehouse%2FGetProducts"
+    ],
+    "Content-Length": [
+      "276"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 12:21:27
+LogLevel: Error
+Code: LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - 44452268)",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen()\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType)\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login)"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Authentication/Login",
+  "Path": "/Authentication/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/warehouse/GetProducts",
+    "Username": "afwadfawd",
+    "Password": "kjhkn",
+    "__RequestVerificationToken": "CfDJ8CZ0FRMOSSFBkjIp5Sf5iu6rxWj7QluKVRLyWTpLtUGEbVA11mgsvetIu5ajue0W0V4KepkPNOICw3XBQ4yvpvDpOSpy10G7L6H8hJ1gzoVPp98Qm1oCf2NNVMZu2YFMSPEFTSYH-Obmkhv41ojhpko",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.-0IBRsAbuzM=CfDJ8CZ0FRMOSSFBkjIp5Sf5iu71hSU2YzGVMkdodjH61oczJXctmB-r-GC9DnGg181uFPzkxcEOIbvY87aAhdGBn9qGS7Maz74fTGn8gjSqTW76zxhDu0c4UVWgPOpdfZHHYlQhf8gI8LpVdPEbbt6dC7k"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/authentication/login?ReturnUrl=%2Fwarehouse%2FGetProducts"
+    ],
+    "Content-Length": [
+      "273"
+    ]
+  }
+}
+-------------------------------------------------
+

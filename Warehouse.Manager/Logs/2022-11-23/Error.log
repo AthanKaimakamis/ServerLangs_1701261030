@@ -1,0 +1,932 @@
+Time: 11:18:21
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Procedure or function 'SP_UpdateProduct' expects parameter '@pID', which was not supplied.\",\"Number\":201,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 188"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "930a79a5-884e-4326-8ff4-ebab5db34693"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:18:21
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "930a79a5-884e-4326-8ff4-ebab5db34693"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:19:27
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"@pDescription is not a parameter for procedure SP_UpdateProduct.\",\"Number\":8145,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 189"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "d19b2e2d-5ee9-4f70-bafa-fa8f5b56aef8"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:19:28
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pID": {
+      "Value": 0,
+      "SqlDbType": "Int"
+    },
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "d19b2e2d-5ee9-4f70-bafa-fa8f5b56aef8"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:22:03
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"@pImageB64 is not a parameter for procedure SP_UpdateProduct.\",\"Number\":8145,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 189"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "229dcb62-69d6-4a94-876c-4c0b80f5a899"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:22:03
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pID": {
+      "Value": 0,
+      "SqlDbType": "Int"
+    },
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "147"
+    ],
+    "Postman-Token": [
+      "229dcb62-69d6-4a94-876c-4c0b80f5a899"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:24:10
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Error converting data type nvarchar to int.\",\"Number\":8114,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 189"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "223"
+    ],
+    "Postman-Token": [
+      "c41b8186-ee9a-4f73-87f8-576d1ba8a21b"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:24:11
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pID": {
+      "Value": 38,
+      "SqlDbType": "Int"
+    },
+    "@pTypeId": {
+      "Value": "Wine",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 10,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "223"
+    ],
+    "Postman-Token": [
+      "c41b8186-ee9a-4f73-87f8-576d1ba8a21b"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:26:10
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Error converting data type nvarchar to int.\",\"Number\":8114,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 189"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "203"
+    ],
+    "Postman-Token": [
+      "285fc818-90b8-4a76-b886-fe17c1ad4e31"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:26:10
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pID": {
+      "Value": 0,
+      "SqlDbType": "Int"
+    },
+    "@pTypeId": {
+      "Value": "Wine",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 10,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "203"
+    ],
+    "Postman-Token": [
+      "285fc818-90b8-4a76-b886-fe17c1ad4e31"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:28:59
+LogLevel: Error
+Code: UpdateProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Error converting data type nvarchar to int.\",\"Number\":8114,\"Procedure\":\"wh.SP_UpdateProduct\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.UpdateProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 189"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "165"
+    ],
+    "Postman-Token": [
+      "2a2f4bb8-7603-4707-91dd-743f0f2cfe73"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 11:28:59
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pID": {
+      "Value": 38,
+      "SqlDbType": "Int"
+    },
+    "@pTypeId": {
+      "Value": "Wine",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red 48",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 96.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "PUT",
+  "Url": "https://localhost:7102/Warehouse/UpdateProduct",
+  "Path": "/Warehouse/UpdateProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "165"
+    ],
+    "Postman-Token": [
+      "2a2f4bb8-7603-4707-91dd-743f0f2cfe73"
+    ]
+  }
+}
+-------------------------------------------------
+

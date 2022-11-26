@@ -9,17 +9,17 @@ BEGIN
             RETURN;
         END
     BEGIN TRY
-        BEGIN TRANSACTION;
         INSERT INTO [wh].[T_ProductTypes] ([Name]) VALUES (@Name);
-        COMMIT;
     END TRY
     BEGIN CATCH
-        ROLLBACK;
-        SET @Error = 'An unexpected error occured. Please contact an Administrator!';
-        EXECUTE [dbo].[Log_DbError]
-            @Message = ERROR_MESSAGE,
-            @Line = ERROR_LINE,
-            @Severity = ERROR_SEVERITY,
-            @ErrorNumber = CAST(select ERROR_NUMBER() as INT);
+        SET @Error = 'Error occured in Database. Please contact an Administrator!';
+        DECLARE 
+            @ErrorNumber SMALLINT = ERROR_NUMBER(),
+            @Severity SMALLINT = ERROR_SEVERITY(),
+            @State SMALLINT = ERROR_STATE(),
+            @Procedure NVARCHAR(128) = ERROR_PROCEDURE(),
+            @Line SMALLINT = ERROR_LINE(),
+            @Message NVARCHAR(MAX) = ERROR_MESSAGE()
+        EXECUTE [dbo].[SP_Log_DbError] @ErrorNumber, @Severity, @State, @Procedure, @Line, @Message;
     END CATCH
 END

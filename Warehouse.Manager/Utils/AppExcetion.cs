@@ -48,8 +48,10 @@ namespace Warehouse.Manager.Utils
         }
     }
 
-    public class ClientException : Exception, IAppException
-    {
+#pragma warning disable CS8766 // Nullability of reference types in return type doesn't match implicitly implemented member (possibly because of nullability attributes).
+  public class ClientException : Exception, IAppException
+#pragma warning restore CS8766 // Nullability of reference types in return type doesn't match implicitly implemented member (possibly because of nullability attributes).
+  {
         private static HttpStatusCode DefaultStatusCode => HttpStatusCode.BadRequest;
 
         public string ClientTitle => "Warning";
@@ -179,8 +181,10 @@ namespace Warehouse.Manager.Utils
         public ParseException(string error, string clientMessage) : base(error) => ClientMessage = clientMessage;
     }
 
-    public class DuplicateDatabaseObjectException : Exception, IAppException
-    {
+#pragma warning disable CS8766 // Nullability of reference types in return type doesn't match implicitly implemented member (possibly because of nullability attributes).
+  public class DuplicateDatabaseObjectException : Exception, IAppException
+#pragma warning restore CS8766 // Nullability of reference types in return type doesn't match implicitly implemented member (possibly because of nullability attributes).
+  {
         public string ClientTitle => "Unique key violation";
         public string ClientMessage { get; }
         public ExceptionHelper.ExceptionCallback Callback { get; set; }

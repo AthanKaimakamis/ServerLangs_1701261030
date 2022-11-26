@@ -12,29 +12,29 @@ DECLARE
     @pID INT = NULL
 BEGIN
     SET @pID = (SELECT [Id] FROM [wh].[T_Products] WHERE [Name] = @pName);
-    IF @pID IS NOT NULL
-    BEGIN
-        SET @pAmount = @pAmount + (SELECT [Amount] FROM [wh].[T_Products] WHERE [Id] = @pID);
-        EXECUTE [wh].[SP_UpdateProduct] @pID, 
-                                        @pAmount = @pAmount,
-                                        @Error = @Error;
-        RETURN;
-    END
     BEGIN TRY
-        BEGIN TRANSACTION;
+        IF @pID IS NOT NULL
+        BEGIN
+            SET @pAmount = @pAmount + (SELECT [Amount] FROM [wh].[T_Products] WHERE [Id] = @pID);
+            EXECUTE [wh].[SP_UpdateProduct] @pID, 
+                                            @pAmount = @pAmount,
+                                            @Error = @Error;
+            RETURN;
+        END
         INSERT INTO [wh].[T_Products]
             ([TypeID],[Name],[Description],[ImageB64],[BoughtPrice],[SellPrice],[Amount]) 
         VALUES 
             (@pTypeID,@pName,@pDescription,@pImageB64,@pBoughtPrice,@pSellPrice,@pAmount);
-        COMMIT;
     END TRY
     BEGIN CATCH
-        ROLLBACK;
-        SET @Error = 'An unexpected error occured. Please contact an Administrator!';
-        EXECUTE [dbo].[SP_Log_DbError]
-            @Message = ERROR_MESSAGE,
-            @Line = ERROR_LINE,
-            @Severity = ERROR_SEVERITY,
-            @ErrorNumber = CAST(SELECT ERROR_NUMBER() AS INT);
+        SET @Error = 'Error occured in Database. Please contact an Administrator!';
+        DECLARE 
+            @ErrorNumber SMALLINT = ERROR_NUMBER(),
+            @Severity SMALLINT = ERROR_SEVERITY(),
+            @State SMALLINT = ERROR_STATE(),
+            @Procedure NVARCHAR(128) = ERROR_PROCEDURE(),
+            @Line SMALLINT = ERROR_LINE(),
+            @Message NVARCHAR(MAX) = ERROR_MESSAGE()
+        EXECUTE [dbo].[SP_Log_DbError] @ErrorNumber, @Severity, @State, @Procedure, @Line, @Message;
     END CATCH
 END

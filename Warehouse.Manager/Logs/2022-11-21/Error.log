@@ -1,0 +1,390 @@
+Time: 13:13:12
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen()\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetFirstResult[T](String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetFirstResult[T](String stmt, SqlParameter parameter)\n   at Warehouse.Manager.Services.DbDataScopedService.GetProduct(Int32 prodID)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/Warehouse/Products?id=1",
+  "Path": "/Warehouse/Products",
+  "Query": [
+    {
+      "Key": "id",
+      "Value": [
+        "1"
+      ]
+    }
+  ],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Postman-Token": [
+      "94a33218-af44-44b1-b3d7-7497fb9fb500"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 17:57:43
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Must declare the scalar variable \\\"@pName\\\".\",\"Number\":137,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException)\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass34_0.<GetTableResult>b__0(Exception _e)\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func)\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt)\n   at Warehouse.Manager.Services.DbDataScopedService.GetProducts(Nullable`1 typeID, String name)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/Warehouse/Products?name=wi",
+  "Path": "/Warehouse/Products",
+  "Query": [
+    {
+      "Key": "name",
+      "Value": [
+        "wi"
+      ]
+    }
+  ],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Postman-Token": [
+      "ff1c544b-9720-471f-958c-a43d1a3bbcae"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 17:57:55
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Must declare the scalar variable \\\"@pName\\\".\",\"Number\":137,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException)\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass34_0.<GetTableResult>b__0(Exception _e)\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func)\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt)\n   at Warehouse.Manager.Services.DbDataScopedService.GetProducts(Nullable`1 typeID, String name)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/Warehouse/Products?name=wine",
+  "Path": "/Warehouse/Products",
+  "Query": [
+    {
+      "Key": "name",
+      "Value": [
+        "wine"
+      ]
+    }
+  ],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Postman-Token": [
+      "9f947dbd-2170-4557-ad82-ac863974a574"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 17:59:19
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Must declare the scalar variable \\\"@pName\\\".\",\"Number\":137,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException)\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass34_0.<GetTableResult>b__0(Exception _e)\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func)\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt)\n   at Warehouse.Manager.Services.DbDataScopedService.GetProducts(Nullable`1 typeID, String name)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/Warehouse/Products?name=wine",
+  "Path": "/Warehouse/Products",
+  "Query": [
+    {
+      "Key": "name",
+      "Value": [
+        "wine"
+      ]
+    }
+  ],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Postman-Token": [
+      "49fd42b3-84e1-4dae-b803-1a9e22d0815f"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 17:59:45
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Must declare the scalar variable \\\"@pName\\\".\",\"Number\":137,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException)\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass34_0.<GetTableResult>b__0(Exception _e)\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func)\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt, List`1 parameters)\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt)\n   at Warehouse.Manager.Services.DbDataScopedService.GetProducts(Nullable`1 typeID, String name)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/Warehouse/Products?name=win",
+  "Path": "/Warehouse/Products",
+  "Query": [
+    {
+      "Key": "name",
+      "Value": [
+        "win"
+      ]
+    }
+  ],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Postman-Token": [
+      "62a9a50d-941c-478c-adb6-4d79227495f4"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:52:44
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen() in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 71\r\n   at Warehouse.Manager.Services.DbCommandBase.GetScalarResult[T](String stmt, List`1 parameters) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 282\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 113"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "e22164f8-1de5-4678-924a-b95ff3dd4fd9"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:53:07
+LogLevel: Error
+Code: Services.DbDataScopedService.GetProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15031; handshake=20; ",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen()\r\n   at Warehouse.Manager.Services.DbCommandBase.GetScalarResult[T](String stmt, List`1 parameters)\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product)"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "9f578860-934b-4ffa-be53-1d912951a981"
+    ]
+  }
+}
+-------------------------------------------------
+

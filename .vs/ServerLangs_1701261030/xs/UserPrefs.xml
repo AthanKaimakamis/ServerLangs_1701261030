@@ -1,21 +1,35 @@
 ﻿<Properties StartupConfiguration="{2B0AE418-4BE4-440F-9C85-F3674CFEC76F}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Warehouse.Manager PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Warehouse.Manager/Services/AuthenticationScopedService.cs">
     <Files>
-      <File FileName="Warehouse.Manager/appsettings.json" Line="14" Column="45" />
-      <File FileName="Warehouse.Manager/Services/DbDataScopedService.cs" Line="1" Column="1" />
-      <File FileName="Warehouse.Manager/Controllers/AuthenticationController.cs" Line="1" Column="1" />
-      <File FileName="Warehouse.Manager/Program.cs" Line="50" Column="11" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="267" Column="5" />
+      <File FileName="Warehouse.Manager/appsettings.json" Line="9" Column="33" />
+      <File FileName="Warehouse.Manager/Services/DbDataScopedService.cs" Line="29" Column="3" />
+      <File FileName="Warehouse.Manager/Controllers/WarehouseController.cs" Line="27" Column="49" />
+      <File FileName="Warehouse.Manager/Program.cs" Line="13" Column="1" />
+      <File FileName="Warehouse.Manager/Controllers/AuthenticationController.cs" Line="50" Column="14" />
+      <File FileName="Warehouse.Manager/Controllers/HomeController.cs" Line="16" Column="1" />
+      <File FileName="Warehouse.Manager/Services/AuthService.cs" Line="107" Column="2" />
+      <File FileName="Warehouse.Manager/Models/UserIdentity.cs" Line="12" Column="1" NotebookId="1" />
+      <File FileName="Warehouse.Manager/Services/CoockiesService.cs" Line="10" Column="4" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="ServerLangs_1701261030" expanded="True" selected="True">
+          <Node name="ServerLangs_1701261030" expanded="True">
             <Node name="Warehouse.Manager" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Utils" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Authentication" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -23,10 +37,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

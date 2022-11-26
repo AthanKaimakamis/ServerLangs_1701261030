@@ -1,0 +1,583 @@
+Time: 14:32:54
+LogLevel: Error
+Code: LoginUser
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15115; handshake=20; ",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen() in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 71\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 249\r\n   at Warehouse.Manager.Services.AuthenticationScopedService.LoginUser(HttpContext context, Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\AuthenticationScopedService.cs:line 69"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Authentication/Login",
+  "Path": "/Authentication/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/",
+    "Username": "testUser",
+    "Password": "Te5t-User",
+    "__RequestVerificationToken": "CfDJ8Dy3GDioeC5Iv8GnbSp3D-CYhzXbIKYrwpKBgUiQnVW2F0jzP1TycBc1AfN1-aXwVEmlEuOLtigeXjVgZFy1S4TUJdsB-L_yFTev_3Y1reTKjbk1mDhUaUr1FpnbgHvN8glZLtcgIVij-twR28B1YZivVeRSXramLSxlzs7WVEO534cxrTc3gudKqNWSChfhEw",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "POST"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cache-Control": [
+      "max-age=0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      "ai_user=c8RJZ|2021-12-06T14:51:53.859Z",
+      "__RequestVerificationToken=2b7IKQZsO7oTHiriclK09hYLFpI5GzoSXZ-D3hEOj29nwbZ5WrxYWqAYEMphEBBl5910t5oRh0b0yYvD4njm2d33viTaZLQ9zsVJPR4GfgU1",
+      "Webstorm-57d25781=87ac898b-1f99-4ced-9074-fbc0fe855784",
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-CdBkklHT4_0eW1d68XemG8lJLzSUuKX1S6MW3teasoeZDGXenNah35Ti3zlP2YAeOiPRiNqkwQiQW7ouB8l8gOrK84ZwqGWaPjfDHFyJWziKS8GDPBV4qES55FPYgGMLg",
+      ".AspNetCore.Cookies=CfDJ8Dy3GDioeC5Iv8GnbSp3D-CkgfJ7gAD8ildGutKkQWjozlMrNOUYOEy5zk7A0MdOcOh-XE8OCq70DOZeAzpSSJFMRlrAELcxA3hz5A0miRbhpP-nVJTW4DdHFx2xJcnZvplw_LpJHgBxGQTEiAHIcHurqaLqf84ooqqum4Ab1sRCGY8ohbPSftHkpQygCDutIiMcKqbh3s5LlmtfvT7CODJ-G7Ykn1mvG0FVTdzpzdEUeskcIt_6Igd1nM8kOmEvVZw5pErpEBba4eI-dJA9zEra_ZS2wwbBk0GHsXGJHo3TC5DPO0F4mAjCAeaHCuvAM0XvG9U5u31k8cARn2w3gxj9gAyec9mJsdT9z0FHxGJsHzJDS4jnLZ1KJ8MWar5BMd98IsywaAfHJzgaiWoV9ViphEYMlqA7ANXtiIFe5lkDzQ1HKoV9vO5ccsrMx-BNb4cTxrS8yetxXOMkSfrppY2J-86mKNq88hgFyKkcA8GrIgDFsElBoCTKLMYWgp1YS8A7N3vqsp6zbsrv-HK9PSc"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/authentication/login?ReturnUrl=%2F"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "Content-Length": [
+      "296"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "same-origin"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 15:14:56
+LogLevel: Error
+Code: GetProducts
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Could not establish connection.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "GatewayTimeout",
+  "Message": "A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Services.DbCommandBase.ConnectionOpen() in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 71\r\n   at Warehouse.Manager.Services.DbCommandBase.GetTableResult(String stmt, List`1 parameters) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 139\r\n   at Warehouse.Manager.Services.DbCommandBase.GetListResult[T](String stmt, List`1 parameters) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 411\r\n   at Warehouse.Manager.Services.DbDataScopedService.GetProducts(Nullable`1 typeID, String name) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 78"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "GET",
+  "Url": "https://localhost:7102/",
+  "Path": "/",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "GET"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cookie": [
+      "ai_user=c8RJZ|2021-12-06T14:51:53.859Z",
+      "__RequestVerificationToken=2b7IKQZsO7oTHiriclK09hYLFpI5GzoSXZ-D3hEOj29nwbZ5WrxYWqAYEMphEBBl5910t5oRh0b0yYvD4njm2d33viTaZLQ9zsVJPR4GfgU1",
+      "Webstorm-57d25781=87ac898b-1f99-4ced-9074-fbc0fe855784",
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-CdBkklHT4_0eW1d68XemG8lJLzSUuKX1S6MW3teasoeZDGXenNah35Ti3zlP2YAeOiPRiNqkwQiQW7ouB8l8gOrK84ZwqGWaPjfDHFyJWziKS8GDPBV4qES55FPYgGMLg",
+      ".AspNetCore.Cookies=CfDJ8Dy3GDioeC5Iv8GnbSp3D-Bw_kW1i5ENs0CuIzmeAUFBQxUunV-8M9MOgU9vYPqAwNXZwdaB21I6X88X9d3NI8XUff7g6DbMrUnHgAMTLDceLfLoKYsSJalMIpIA3qvAOjlCUmnbyPt1pxjdyoVadqOzQUilnCqNS4VIhSLbMBMLrNSTWxN134xU4sAAFUGN7YMUiKK-aVWDK3synBGv2Zf2c7OtG0DfGwaAKgTrNZByeOoaGk3vxadOCIXSDXanCE0DboXDcnPf3ZwU7GW1V1EmGbbw1clUxQojKg60o5eQCJHVpu2ZidQUFYu7gI_PpW-A0jsbHmEoYGVarPjmGTvRDErJh4KRGumL8frAOECZS03aOTSffNH9JvdPSFORp2pxF9IMxn6Y6WwjJAGjeqRYR3caYtT0GgPOcu4SYD1VkBO-V1dAXPQqLrIpO_3fNkKog8f3bt4WrxSxYo7wIGg51VBse8hZH03aZCLcdCS7l01-cssyPBlFprYhFcdriFFT3DFMAz4t7O0FFVyH8NM"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "none"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 16:03:09
+LogLevel: Error
+Code: LoginUser
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Проблем с автентикацията. Моля обърнете се към администратор",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at Warehouse.Manager.Services.AuthenticationScopedService.LoginUser(HttpContext context, Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\AuthenticationScopedService.cs:line 69",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": "Warehouse.Manager",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Authentication/Login",
+  "Path": "/Authentication/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/",
+    "Username": "testUser",
+    "Password": "Te5t-User",
+    "__RequestVerificationToken": "CfDJ8Dy3GDioeC5Iv8GnbSp3D-DRK4taf2pBy18e5LHfYTfIQQbZtPh6u0zaLnIUi9euta5Bvxq3M0XB6t9aaCoiBvt1028aUsibhH6hwMIDkjNWNWHwUSFHbTjFLncmAFhGIR95qZhou28RNGc65xriMJE",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "POST"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cache-Control": [
+      "max-age=0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-Dql9dZbpcfJJFL-qqHilydVhTJr17Q-sSztbai9cor42l4A1nxC-EnMzV9jWFkOnJAgyeKsok2P2uzagEHiUdYPswx30GhLTKT9oKi-yT3oAXgyR27gG5D7ju7laSWNIc"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/authentication/login?ReturnUrl=%2F"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "Content-Length": [
+      "253"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "same-origin"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 16:06:08
+LogLevel: Error
+Code: LoginUser
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Проблем с автентикацията. Моля обърнете се към администратор",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at Warehouse.Manager.Services.AuthenticationScopedService.LoginUser(HttpContext context, Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\AuthenticationScopedService.cs:line 69",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": "Warehouse.Manager",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Authentication/Login",
+  "Path": "/Authentication/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/",
+    "Username": "testUser",
+    "Password": "Te5t-User",
+    "__RequestVerificationToken": "CfDJ8Dy3GDioeC5Iv8GnbSp3D-BAaprtpqLR2UwHNj_gbzONGMYoHL9KVi5GWScpf3Bfh9ndXceYqUHrqjvLWU_PJ0OhyuHWqIMGnAf7MrUDZitujzveLOUZssCp3IzNzAHbZpeW0EneL8-5cHjuX_30C0M",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "POST"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cache-Control": [
+      "max-age=0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-Dql9dZbpcfJJFL-qqHilydVhTJr17Q-sSztbai9cor42l4A1nxC-EnMzV9jWFkOnJAgyeKsok2P2uzagEHiUdYPswx30GhLTKT9oKi-yT3oAXgyR27gG5D7ju7laSWNIc"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/authentication/login?ReturnUrl=%2F"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "Content-Length": [
+      "253"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "same-origin"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 16:37:52
+LogLevel: Error
+Code: LoginUser
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Проблем с автентикацията. Моля обърнете се към администратор",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at Warehouse.Manager.Services.AuthenticationScopedService.LoginUser(HttpContext context, Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\AuthenticationScopedService.cs:line 69",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": "Warehouse.Manager",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Auth/Login",
+  "Path": "/Auth/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/",
+    "Username": "testUser",
+    "Password": "Te5t-User",
+    "__RequestVerificationToken": "CfDJ8Dy3GDioeC5Iv8GnbSp3D-BjJNvKUzZu8GMwZvGineeUpWNruvpOCfWW0xys52tlMm8VtBHgGKODKmzWJaQ9X7hTLO02xwB6u39vZn-ssv_rgrgX4IEZix4c2w22EmyVAxf9r1u_9hWLmqv-lI5dCMA",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "POST"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cache-Control": [
+      "max-age=0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-D7ltMsPm6Q9Qe3EE22OQEeH8ZcbZXV47e2cGQp-rxUAyxyV4wHw82LvMfzOsuLYvN4Vjd7oPw6c2d91khK5eUmda2lCi4ucdzfYdwet45fBl76Evu9wgL6w26z61LEdsc"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/auth/login?ReturnUrl=%2F"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "Content-Length": [
+      "253"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "same-origin"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 16:39:42
+LogLevel: Error
+Code: LoginUser
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Проблем с автентикацията. Моля обърнете се към администратор",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at Warehouse.Manager.Services.AuthenticationScopedService.LoginUser(HttpContext context, Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\AuthenticationScopedService.cs:line 69",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": "Warehouse.Manager",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Auth/Login",
+  "Path": "/Auth/Login",
+  "Query": [],
+  "Body": "",
+  "Form": {
+    "ReturnUrl": "/warehouse/index",
+    "Username": "testUser",
+    "Password": "Te5t-User",
+    "__RequestVerificationToken": "CfDJ8Dy3GDioeC5Iv8GnbSp3D-BhgnR0rjVbCnDFbp8WkvO-j04wsedbV0YHjxv92_McHEjffI_6O6li0R-qCpCBsHmshWyEYKFWaXhdq-UTGyAYdXvX8R2QijEtrWEA-In2hWCpPv4nYv14gkwj26VDaLw",
+    "RememberLogin": "false"
+  },
+  "Headers": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ],
+    ":method": [
+      "POST"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,bg-BG;q=0.8,bg;q=0.7,en-US;q=0.6"
+    ],
+    "Cache-Control": [
+      "max-age=0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie": [
+      ".AspNetCore.Antiforgery.1L9FrIpObnY=CfDJ8Dy3GDioeC5Iv8GnbSp3D-D7ltMsPm6Q9Qe3EE22OQEeH8ZcbZXV47e2cGQp-rxUAyxyV4wHw82LvMfzOsuLYvN4Vjd7oPw6c2d91khK5eUmda2lCi4ucdzfYdwet45fBl76Evu9wgL6w26z61LEdsc"
+    ],
+    "Origin": [
+      "https://localhost:7102"
+    ],
+    "Referer": [
+      "https://localhost:7102/auth/login?ReturnUrl=%2Fwarehouse%2Findex"
+    ],
+    "Upgrade-Insecure-Requests": [
+      "1"
+    ],
+    "Content-Length": [
+      "270"
+    ],
+    "sec-ch-ua": [
+      "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+    ],
+    "sec-ch-ua-mobile": [
+      "?0"
+    ],
+    "sec-ch-ua-platform": [
+      "\"Windows\""
+    ],
+    "sec-fetch-site": [
+      "same-origin"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "sec-fetch-dest": [
+      "document"
+    ]
+  }
+}
+-------------------------------------------------
+

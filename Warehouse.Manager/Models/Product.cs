@@ -2,13 +2,14 @@
 {
   public class Product
   {
-    public int ID { get; set; }
-    public string Type { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public string ImageB64 { get; set; }
-    public float BoughtPrice { get; set; }
-    public float SellPrice { get; set; }
-    public int Amount { get; set; }
+    public int pID { get; set; }
+    public string pType { get; set; }
+    public string pName { get; set; }
+    public string pDesc { get; set; }
+    public string pImg { get; set; }
+    public double pBPrice { get; set; }
+    public double pSPrice { get; set; }
+    public int pAmount { get; set; }
+    public string? Error { get; set; } = string.Empty;
   }
 }

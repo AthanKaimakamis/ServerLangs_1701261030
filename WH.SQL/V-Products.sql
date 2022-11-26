@@ -6,6 +6,7 @@ Create VIEW [wh].[V_Products] AS
         p.[Description] as pDesc,
         p.[ImageB64] as pImg,
         p.[BoughtPrice] as pBPrice,
-        p.[SellPrice] as pSPrice
+        p.[SellPrice] as pSPrice,
+        p.[Amount] as pAmount
     FROM [wh].[T_Products] p
     INNER JOIN [wh].[T_ProductTypes] t ON t.Id = p.TypeId

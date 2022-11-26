@@ -1,0 +1,2728 @@
+Time: 19:40:46
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "\r\n      wh.SP_AddProduct\r\n      @pTypeId,\r\n      @pName,\r\n      @pDscription,\r\n      @pImageB64,\r\n      @pBoughtPrice,\r\n      @pSellPrice,\r\n      @pAmount,\r\n      @out_error OUT",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDscription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@out_error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "012414a1-d104-494e-b9ef-b961a5925985"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:41:28
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_UpdateProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDscription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@out_error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "cb7989cf-0cec-4af2-ae04-9b301e2b72ac"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:44:42
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "Parameter1": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "76f27eca-6816-40e7-9fc6-5b4dd64b6f52"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:48:41
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClassName": "System.InvalidOperationException",
+  "Message": "String[8]: the Size property has an invalid size of 0.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)\r\n   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Boolean inSchema, SqlParameterCollection parameters)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)\r\n   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)\r\n   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)\r\n   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 251\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 124",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233079,
+  "Source": "System.Data.SqlClient",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "6e67cd33-4aef-462a-ac78-57cbdd27873f"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:52:05
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClassName": "System.InvalidOperationException",
+  "Message": "String[7]: the Size property has an invalid size of 0.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)\r\n   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Boolean inSchema, SqlParameterCollection parameters)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)\r\n   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)\r\n   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)\r\n   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 251\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 125",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233079,
+  "Source": "System.Data.SqlClient",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "492282d5-d87a-4165-828b-3cf234b67378"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:52:55
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@out_error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "d72ad59e-2a79-40ce-b44b-73b08c5b0039"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:54:17
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@out_error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "4900bfd2-2155-4710-8f39-c5654f0138e0"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 19:57:47
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClassName": "System.ArgumentException",
+  "Message": "No mapping exists from object type System.Data.SqlClient.SqlParameter to a known managed provider native type.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)\r\n   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)\r\n   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Boolean inSchema, SqlParameterCollection parameters)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)\r\n   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)\r\n   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)\r\n   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 251\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 124",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2147024809,
+  "Source": "System.Data.SqlClient",
+  "WatsonBuckets": null,
+  "ParamName": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "b05c90c8-823a-48fa-8ca6-cd1967ba8f22"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:02:20
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Invalid parameter 8 ('@out_error'):  Data type 0x23 is a deprecated large object, or LOB, but is marked as output parameter.  Deprecated types are not supported as output parameters.  Use current large object types instead.\",\"Number\":8018,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 125"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "095f6051-10c3-4bfc-879f-09ea2e3b7956"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:02:48
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Invalid parameter 8 ('@out_error'):  Data type 0x63 is a deprecated large object, or LOB, but is marked as output parameter.  Deprecated types are not supported as output parameters.  Use current large object types instead.\",\"Number\":8018,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 125"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "d11ba768-140d-4fc6-b956-8104d6c9bc5e"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:03:42
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Invalid parameter 8 ('@Error'):  Data type 0x63 is a deprecated large object, or LOB, but is marked as output parameter.  Deprecated types are not supported as output parameters.  Use current large object types instead.\",\"Number\":8018,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 125"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "2613f7ed-3aa1-4590-88ec-7798e204623d"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:04:30
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Invalid parameter 8 ('@Error'):  Data type 0x63 is a deprecated large object, or LOB, but is marked as output parameter.  Deprecated types are not supported as output parameters.  Use current large object types instead.\",\"Number\":8018,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 126"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "71cb4c3a-e6e6-4b9d-8dab-d230df43300a"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:05:11
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Invalid parameter 8 ('@Error'):  Data type 0x63 is a deprecated large object, or LOB, but is marked as output parameter.  Deprecated types are not supported as output parameters.  Use current large object types instead.\",\"Number\":8018,\"Procedure\":\"\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 126"
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "00ae3edd-5f92-4334-8c98-e043765320e8"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:06:19
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClassName": "System.InvalidOperationException",
+  "Message": "String[7]: the Size property has an invalid size of 0.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)\r\n   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Boolean inSchema, SqlParameterCollection parameters)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)\r\n   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)\r\n   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)\r\n   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 251\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 126",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233079,
+  "Source": "System.Data.SqlClient",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "f280def0-0982-465a-a519-83dddbc6aef1"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:07:29
+LogLevel: Error
+Code: AddProduct
+Exception: {
+  "ClassName": "System.InvalidOperationException",
+  "Message": "String[7]: the Size property has an invalid size of 0.",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": "   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)\r\n   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Boolean inSchema, SqlParameterCollection parameters)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)\r\n   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)\r\n   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)\r\n   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 251\r\n   at Warehouse.Manager.Services.DbDataScopedService.AddProduct(Product product) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 125",
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233079,
+  "Source": "System.Data.SqlClient",
+  "WatsonBuckets": null
+}
+Parameters: {
+  "ClientIPAddress": null
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "160"
+    ],
+    "Postman-Token": [
+      "cf43cdd9-38a8-4caf-ae29-2ea352c08a8e"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:12:20
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "162"
+    ],
+    "Postman-Token": [
+      "47aa955c-0bff-4f1d-af0c-864f27e78913"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:12:57
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red Colored Seasoned",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Real"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Real"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "162"
+    ],
+    "Postman-Token": [
+      "00b445e1-e95b-402d-a73c-742230c38f74"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:28:10
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "47f87d78-70ae-49bc-8040-403c1e9f150d"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:31:07
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "a7217c49-4f58-40f0-86af-e8c6b3f3340a"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:32:36
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "af92efa4-c259-46f2-8c41-5f26298b7aaa"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:37:56
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "af576bfd-67e9-431a-8caf-28dc797be6cc"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:41:32
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    },
+    "Parameter1": {
+      "Value": -6,
+      "SqlDbType": "Int"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "87d0de62-52a6-4fbd-93f7-4cef7a852124"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:44:31
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "5a86f6a5-252f-4493-8481-6a72eea8467a"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:49:27
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "6fe01601-a29b-4edb-9ff6-c7de42f8da18"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:50:03
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "a39d9ef9-5e96-4384-80fa-9df9e7a83034"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:50:10
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "c5409052-ca64-48e9-85f8-5f2cbf202488"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 20:51:02
+LogLevel: Error
+Code: 0x9000101
+Exception: {
+  "ClassName": "System.Exception",
+  "Message": "Dispose of $DbCommandBase",
+  "Data": null,
+  "InnerException": null,
+  "HelpURL": null,
+  "StackTraceString": null,
+  "RemoteStackTraceString": null,
+  "RemoteStackIndex": 0,
+  "ExceptionMethod": null,
+  "HResult": -2146233088,
+  "Source": null,
+  "WatsonBuckets": null
+}
+Parameters: {
+  "command": "wh.SP_AddProduct",
+  "parameters": {
+    "@pTypeId": {
+      "Value": "1",
+      "SqlDbType": "NVarChar"
+    },
+    "@pName": {
+      "Value": "Red",
+      "SqlDbType": "NVarChar"
+    },
+    "@pDescription": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pImageB64": {
+      "Value": "",
+      "SqlDbType": "NVarChar"
+    },
+    "@pBoughtPrice": {
+      "Value": 18.9,
+      "SqlDbType": "Float"
+    },
+    "@pSellPrice": {
+      "Value": 80.99,
+      "SqlDbType": "Float"
+    },
+    "@pAmount": {
+      "Value": 12,
+      "SqlDbType": "Int"
+    },
+    "@Error": {
+      "Value": null,
+      "SqlDbType": "NVarChar"
+    }
+  },
+  "InTransaction": true,
+  "ConnectionOpened": false,
+  "UnauthorizedAccessAllowed": false
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/Warehouse/AddProduct",
+  "Path": "/Warehouse/AddProduct",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "144"
+    ],
+    "Postman-Token": [
+      "dc196b3a-1ea1-466f-a2d7-aae53f7375d0"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:46:40
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "d0a6fd96-b26c-4be8-961b-4d9c7234a4db"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:47:42
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "35dd5292-e83b-49f6-8f7e-34b342b43f4f"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:49:06
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "d7a9c52b-e5c3-41d7-ae03-864a8510004f"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:49:10
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "11c46193-6922-44b4-9fa6-97f98f486000"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:53:46
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "225cdbf0-d4c7-43ef-83de-e251c0e581b8"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:53:47
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "df39da0d-c196-4adf-a8ec-3092fbdaee00"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:57:11
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "730deb27-4e6c-4eb8-a1b9-fbf31c7eb703"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:57:18
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "307feae0-773a-4c27-892e-e72afdbe4803"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:57:46
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Could not find stored procedure '\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT'.\",\"Number\":2812,\"Procedure\":\"\\r\\n      wh.SP_LoginVerify \\r\\n      @username, @password, @Error OUT\",\"LineNumber\":1}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "7711baef-cebe-4b83-a29c-d4da36c1dab7"
+    ]
+  }
+}
+-------------------------------------------------
+
+Time: 21:59:02
+LogLevel: Error
+Code: Services.DbDataScopedService.LoginValidation
+Exception: {
+  "ClientTitle": "Error",
+  "ClientMessage": "Error processing data.",
+  "Callback": "NONE",
+  "Handler": "NONE",
+  "Args": null,
+  "StatusCode": "ServiceUnavailable",
+  "Message": "{\"Message\":\"Procedure or function 'SP_LoginVerify' expects parameter '@errorMessage', which was not supplied.\",\"Number\":201,\"Procedure\":\"wh.SP_LoginVerify\",\"LineNumber\":0}",
+  "Data": {},
+  "InnerException": null,
+  "HelpLink": null,
+  "Source": "Warehouse.Manager",
+  "HResult": -2146233088,
+  "StackTrace": "   at Warehouse.Manager.Utils.DatabaseException..ctor(SqlException sqlException) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 248\r\n   at Warehouse.Manager.Services.DbCommandBase.<>c__DisplayClass43_0.<ExecuteNonQuery>b__0(Exception _e) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Utils.ExceptionHelper.GetException(Exception e, Func`2 func) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Utils\\AppExcetion.cs:line 47\r\n   at Warehouse.Manager.Services.DbCommandBase.ExecuteNonQuery(String stmt, List`1 parameters, CommandType commandType) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbCommandBase.cs:line 257\r\n   at Warehouse.Manager.Services.DbDataScopedService.LoginValidation(Login login) in D:\\Shared drives\\Projects\\ServerLangs_1701261030\\Warehouse.Manager\\Services\\DbDataScopedService.cs:line 40"
+}
+IPAddress: ::1
+Request: {
+  "Method": "POST",
+  "Url": "https://localhost:7102/sign-in",
+  "Path": "/sign-in",
+  "Query": [],
+  "Body": "",
+  "Form": null,
+  "Headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Host": [
+      "localhost:7102"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "60"
+    ],
+    "Postman-Token": [
+      "e83a46d0-bad7-47b5-819a-6bcc35ff7d7f"
+    ]
+  }
+}
+-------------------------------------------------
+

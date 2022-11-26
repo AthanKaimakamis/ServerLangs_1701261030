@@ -5,14 +5,17 @@ namespace Warehouse.Manager.Models
 {
   public class Login
   {
-    [Display(Name = "Потребителско Име")]
     [Required]
-    public string? Username { get; set; }
+    [Display(Name = "Потребителско Име")]
+    public string Username { get; set; }
 
-    
+    [Required]
     [Display(Name = "Парола")]
     [DataType(DataType.Password)]
-    [Required]
-    public string? Password { get; set; }
+    public string Password { get; set; }
+
+    public bool RememberLogin { get; set; }
+
+    public string ReturnUrl { get; set; }
   }
 }
